@@ -1,4 +1,47 @@
 body {
-    background-color: aliceblue;
+    background-color: $background-main;
     margin: 10px;
+    color: $text-color;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 28;
+    line-height: 3.5;
+    margin-bottom: 0;
+    letter-spacing: 4%;
+}
+
+
+h3 {
+color: $main-blue;
+font-size: 18;
+line-height: 1.6;
+letter-spacing: 2%;
+margin-bottom: 30px;
+}
+
+h4 {
+    color: $main-blue;
+    margin-bottom: 20px;
+    font-size: 15;
+    font-weight: 500;
+    line-height: 2.1;
+    font-weight: lighter;
+    letter-spacing: 4%;
+}
+
+p {
+    font-size: 12;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    padding: 20px 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }

@@ -6,7 +6,7 @@
 
 
 .header {
-    background-color: #3B4BDC;
+    background-color: $main-blue;
 }
 
 .header__logo {
@@ -48,7 +48,7 @@
 }
 
 .header__nav-link:hover {
-    color: #43dc3b;
+    color: $text-color;
 }
 
 .header__hamburger{
