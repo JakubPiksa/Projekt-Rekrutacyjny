@@ -1,0 +1,42 @@
+section {
+    background-color: $background-grey;
+}
+
+.section__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section__list-item {
+    position: relative;
+    max-width: 92%;
+    width: 100%;
+    padding: 10px;
+}
+
+.section__figure {
+    position: relative;
+    width: 100%;
+    max-width: 92%;
+}
+
+.section__figure-image {
+    width: 100%;
+    max-width: 92%;
+    height: auto;
+}
+
+.section__figure-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 92%;
+    background: $background-main;
+    color: $text-color;
+    padding: 10px;
+    box-sizing: border-box;
+}

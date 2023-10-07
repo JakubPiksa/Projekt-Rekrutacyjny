@@ -1,0 +1,49 @@
+.five {
+    background-color: $background-main;
+}
+
+
+.section__paragraph {
+    padding: 10px;
+}
+
+.section__days-container {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:25px;
+}
+
+.section__days-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 100%;
+}
+
+.section__days-day {
+    color: $background-main;
+    background-color: $main-blue;
+    width: 100%;
+    height: 46px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.section__days-text {
+    width: 100%;
+    background-color: $background-grey;
+    line-height: 1.25;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px 20px;
+}

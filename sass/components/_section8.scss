@@ -1,0 +1,32 @@
+.eight {
+    padding-bottom: 30px;
+}
+
+
+.section__item {
+    background-color: $background-main;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.section__item-number {
+    font-size: 60px;
+    opacity: 0.1;
+    font-weight: bolder;
+    padding: 30px 20px 0px 20px;
+}
+
+.section__item-heading {
+    font-size: 16px;
+    letter-spacing: 2%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+
+.section__item-description {
+    font-size: 10px;
+    padding: 20px;
+    line-height: 1.25;
+
+}
