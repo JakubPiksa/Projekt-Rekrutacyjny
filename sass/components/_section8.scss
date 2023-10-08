@@ -1,6 +1,6 @@
 .eight {
-    padding-bottom: 30px;
     background-color: $background-grey;
+    padding: 30px 0px;
 }
 
 
@@ -30,4 +30,11 @@
     padding: 20px;
     line-height: 1.25;
 
+}
+
+.section__paragraph-eight{
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 1.25;
+    margin: 15px;
 }
