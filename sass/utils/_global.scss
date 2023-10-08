@@ -69,7 +69,7 @@ a {
 }
 
 .section__button {
-    max-width: 75%;
+    width: 276px;
     color: $background-main;
     background-color: $main-blue;
     border: 1px solid $main-blue;
@@ -94,3 +94,28 @@ a {
         margin-left: 15px;
         transition: opacity 0.2s ease-in-out;
     }
+
+
+
+
+@include desktop {
+// SECTION TITLE
+    .section__title {
+        font-size: 56px;
+        
+    }
+
+
+// SECTION SUBTITLE
+        .section__subtitle {
+            font-size: 30px;
+            line-height: 1.26;
+        }
+
+
+
+// BUTTON
+.section__button {
+    width: 296px;
+}
+}

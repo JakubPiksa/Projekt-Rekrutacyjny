@@ -20,8 +20,9 @@
 
 .section__list-item {
     position: relative;
-    max-width: 92%;
-    width: 100%;
+    width: 92%;
+    max-width: 500px;
+
 }
 
 .section__figure {
@@ -54,8 +55,26 @@
 }
 
 @include desktop {
+    .two {
+        padding: 40px 225px;
+    }
     .section__list {
-        display: flex;
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);       
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+    }
+
+    .section__figure{
+        max-width: 330px;
+        max-height: 330px;
+    }
+
+
+    .section__figure-caption {
+
+        font-size: 22px;
 
     }
+
 }

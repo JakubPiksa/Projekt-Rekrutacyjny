@@ -53,8 +53,44 @@
     background-color: $background-grey;
     line-height: 1.25;
     font-size: 12px;
+    letter-spacing: 0.02em;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
     padding: 15px 20px;
+}
+
+@include desktop {
+
+    .section__days-day {
+        font-size: 26px;
+
+    }
+
+
+    .section__image-five {
+        padding-left: 0px;
+        max-width: 705px;
+    }
+
+    .section__days-container-desktop {
+        display: flex;
+    }
+
+    .section__desktop-container{
+        margin-left: 150px;
+        width: 810px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .section__days-item {
+        width: 810px;
+    }
+    .monday {
+        display: flex;
+        flex-direction: row;
+    }
 }
