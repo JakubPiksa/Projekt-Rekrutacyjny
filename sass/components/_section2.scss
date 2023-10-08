@@ -1,5 +1,6 @@
 .two {
     background-color: $background-grey;
+    padding-top: 40px;
     padding-bottom: 30px;
 }
 
@@ -14,14 +15,15 @@
     padding: 0;
     margin: 0;
     align-items: center;
-    gap:10px;
+    gap: 15px;
     margin-bottom: 30px;
+    margin-top: 26px;
 }
 
 .section__list-item {
     position: relative;
     width: 92%;
-    max-width: 500px;
+    max-width: 550px;
 
 }
 
@@ -39,20 +41,30 @@
 }
 
 .section__figure-caption {
-    font-size: 16px;
+    vertical-align: middle;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.045em;
     font-weight: bold;
     position: absolute;
     bottom: 0;
     left: 0;
+    height: 66px;
     width: 100%;
     max-width: 100%;
     background: $background-main;
     color: $text-color;
-    padding: 10px;
     box-sizing: border-box;
+    border-radius: 0px 0px 2px 2px;
+    display: flex;
+    align-items: center;
 }
+
+.section__figure-caption p {
+    align-items: center;
+    padding: 15px;
+}
+
 
 @include desktop {
     .two {
@@ -72,12 +84,43 @@
         max-height: 330px;
     }
 
-
     .section__figure-caption {
         position: relative;
         width: 100%;
         max-width: 100%;
         font-size: 18px;
+    }
+
+    .section__figure-image {
+    transition: all 0.2s ease;
+    filter: brightness(100%);
+    }
+
+    .hoover-container {
+        position: relative;
+        cursor: pointer;
+        &:hover {
+            .section__figure-image {
+                filter: brightness(50%);
+            }
+            .hoover {
+                opacity: 1;
+            }
+        }
+    .hoover {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+        
+    }
     }
 
 }

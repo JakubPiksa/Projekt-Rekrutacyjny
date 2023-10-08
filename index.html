@@ -12,7 +12,9 @@
       rel="stylesheet"
     />
   </head>
+
   <!-- _____Header_____ -->
+
   <body>
     <header class="header">
       <nav class="header__container">
@@ -44,6 +46,7 @@
         </span>
 
         <!-- NAVIGATE menu -->
+
         <ul class="header__nav-list">
           <li class="header__nav-item">
             <a href="#section2" class="header__nav-link">Sekcja 2</a>
@@ -57,6 +60,7 @@
         </ul>
 
         <!-- Mobile menu toggle button -->
+
         <div class="header__hamburger">
           <span class="header__hamburger-bar"></span>
           <span class="header__hamburger-bar"></span>
@@ -69,23 +73,42 @@
 
     <main>
       <!-- SECTION 2 -->
-      <section class="section two">
-        <h2 class="section__title">Sekcja 2 - Lorem Ipsum Dolor Sit Amet</h2>
-        <div class="section_subtitle-container">
-          <span class="section_subtitle-dot"> </span>
-          <h4 class="section__subtitle">Lorem ipsum dolor sit amet</h4>
+      <section class="section two" id="section2">
+        <div class="section__title-container">
+          <h2 class="section__title">Sekcja 2 - Lorem Ipsum Dolor Sit Amet</h2>
+          <div class="section_subtitle-container">
+            <span class="section_subtitle-dot"> </span>
+            <h4 class="section__subtitle">Lorem ipsum dolor sit amet</h4>
+          </div>
         </div>
         <!-- LISTA KAFELKÓW -->
         <ul class="section__list">
           <li class="section__list-item">
             <figure class="section__figure">
-              <img
-                src="utils/images/mobile/store.png"
-                alt="text"
-                class="section__figure-image"
-              />
+              <div class="hoover-container">
+                <img
+                  src="utils/images/mobile/store.png"
+                  alt="text"
+                  class="section__figure-image"
+                />
+                <div class="hoover">
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.5003 1.66501C15.1037 1.66501 18.8353 5.39668 18.8353 10C18.8353 14.6025 15.1037 18.3333 10.5003 18.3333C5.89699 18.3342 2.16699 14.6025 2.16699 10C2.16616 5.39668 5.89699 1.66501 10.5003 1.66501ZM10.5003 2.91501C9.5635 2.90485 8.63396 3.08059 7.76551 3.43207C6.89706 3.78354 6.10693 4.30377 5.44088 4.96265C4.77482 5.62152 4.24605 6.40595 3.88518 7.27054C3.5243 8.13513 3.33849 9.06271 3.33849 9.99959C3.33849 10.9365 3.5243 11.8641 3.88518 12.7286C4.24605 13.5932 4.77482 14.3777 5.44088 15.0365C6.10693 15.6954 6.89706 16.2156 7.76551 16.5671C8.63396 16.9186 9.5635 17.0943 10.5003 17.0842C12.366 17.0639 14.1483 16.3086 15.4604 14.9822C16.7725 13.6558 17.5085 11.8653 17.5085 9.99959C17.5085 8.13384 16.7725 6.3434 15.4604 5.01698C14.1483 3.69056 12.366 2.93524 10.5003 2.91501ZM10.497 8.74834C10.6482 8.74815 10.7943 8.80275 10.9083 8.90204C11.0223 9.00133 11.0964 9.13857 11.117 9.28834L11.1228 9.37334L11.1262 13.9583C11.1278 14.1178 11.0684 14.2719 10.9601 14.389C10.8518 14.5061 10.7029 14.5774 10.5438 14.5882C10.3846 14.5991 10.2274 14.5487 10.1042 14.4474C9.98102 14.3461 9.90123 14.2016 9.88116 14.0433L9.87616 13.9592L9.87283 9.37418C9.87283 9.20842 9.93867 9.04944 10.0559 8.93223C10.1731 8.81502 10.3321 8.74918 10.4978 8.74918L10.497 8.74834ZM10.5012 5.83418C10.6126 5.83065 10.7237 5.84956 10.8277 5.88979C10.9318 5.93001 11.0267 5.99074 11.1068 6.06835C11.1869 6.14597 11.2506 6.23889 11.2941 6.3416C11.3376 6.44431 11.36 6.55472 11.36 6.66626C11.36 6.7778 11.3376 6.88821 11.2941 6.99092C11.2506 7.09363 11.1869 7.18655 11.1068 7.26416C11.0267 7.34178 10.9318 7.4025 10.8277 7.44273C10.7237 7.48296 10.6126 7.50187 10.5012 7.49834C10.285 7.4915 10.0801 7.40084 9.92959 7.24554C9.77913 7.09024 9.69499 6.88249 9.69499 6.66626C9.69499 6.45003 9.77913 6.24228 9.92959 6.08698C10.0801 5.93168 10.285 5.84102 10.5012 5.83418Z"
+                      fill="#1D1D1B"
+                    />
+                  </svg>
+                  <p>Szczegóły</p>
+                </div>
+              </div>
               <figcaption class="section__figure-caption">
-                Nazwa lorem ipsum dolor sit amet lorem
+                <p>Nazwa lorem ipsum dolor sit amet lorem</p>
               </figcaption>
             </figure>
           </li>
@@ -97,7 +120,7 @@
                 class="section__figure-image"
               />
               <figcaption class="section__figure-caption">
-                Nazwa lorem ipsum dolor sit amet lorem
+                <p>Nazwa lorem ipsum dolor sit amet lorem</p>
               </figcaption>
             </figure>
           </li>
@@ -108,8 +131,9 @@
                 alt="text"
                 class="section__figure-image"
               />
+
               <figcaption class="section__figure-caption">
-                Nazwa lorem ipsum dolor sit amet lorem
+                <p>Nazwa lorem ipsum dolor sit amet lorem</p>
               </figcaption>
             </figure>
           </li>
@@ -121,7 +145,7 @@
                 class="section__figure-image"
               />
               <figcaption class="section__figure-caption">
-                Nazwa lorem ipsum dolor sit amet lorem
+                <p>Nazwa lorem ipsum dolor sit amet lorem</p>
               </figcaption>
             </figure>
           </li>
@@ -133,7 +157,7 @@
                 class="section__figure-image"
               />
               <figcaption class="section__figure-caption">
-                Nazwa lorem ipsum dolor sit amet lorem
+                <p>Nazwa lorem ipsum dolor sit amet lorem</p>
               </figcaption>
             </figure>
           </li>
@@ -145,7 +169,7 @@
                 class="section__figure-image"
               />
               <figcaption class="section__figure-caption">
-                Nazwa lorem ipsum dolor sit amet lorem
+                <p>Nazwa lorem ipsum dolor sit amet lorem</p>
               </figcaption>
             </figure>
           </li>
@@ -157,7 +181,7 @@
                 class="section__figure-image"
               />
               <figcaption class="section__figure-caption">
-                Nazwa lorem ipsum dolor sit amet lorem
+                <p>Nazwa lorem ipsum dolor sit amet lorem</p>
               </figcaption>
             </figure>
           </li>
@@ -169,7 +193,7 @@
                 class="section__figure-image"
               />
               <figcaption class="section__figure-caption">
-                Nazwa lorem ipsum dolor sit amet lorem
+                <p>Nazwa lorem ipsum dolor sit amet lorem</p>
               </figcaption>
             </figure>
           </li>
@@ -185,7 +209,7 @@
       </section>
 
       <!-- SECTION 5 -->
-      <section class="section five">
+      <section class="section five" id="section5">
         <div class="section__title-container">
           <h2 class="section__title">Sekcja 5 - Lorem ipsum dolor sit amet</h2>
           <div class="section_subtitle-container">
@@ -194,11 +218,7 @@
           </div>
         </div>
         <div class="section__days-container-desktop">
-          <img
-            src="utils/images/comp_lady_hd.png"
-            alt="teks"
-            class="section__image-five"
-          />
+          <img src="" alt="lady in helmet" class="section__image-five" />
           <div class="section__desktop-container">
             <div class="section__days-description">
               <p class="section__paragraph">
@@ -218,7 +238,7 @@
             <div class="section__days-container">
               <div class="section__days-item">
                 <p class="section__days-day">Każdy poniedziałek</p>
-                <div class="monday">
+                <div class="section__monday">
                   <p class="section__days-text">
                     Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
                   </p>
@@ -281,11 +301,13 @@
 
       <!-- SECTION 8 -->
 
-      <section class="section eight">
-        <h2 class="section__title">Sekcja 8 - Lorem Ipsum Dolor Sit Amet</h2>
-        <div class="section_subtitle-container">
-          <span class="section_subtitle-dot"> </span>
-          <h4 class="section__subtitle">Lorem ipsum dolor sit amet</h4>
+      <section class="section eight" id="section8">
+        <div class="section__title-container">
+          <h2 class="section__title">Sekcja 8 - Lorem Ipsum Dolor Sit Amet</h2>
+          <div class="section_subtitle-container">
+            <span class="section_subtitle-dot"> </span>
+            <h4 class="section__subtitle">Lorem ipsum dolor sit amet</h4>
+          </div>
         </div>
         <p class="section__paragraph-eight">
           Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur.
@@ -297,7 +319,7 @@
         <!-- KAFELKI CYFERKOWE -->
         <div class="section__item-container">
           <div class="section__item">
-            <span class="section__item-number">1</span>
+            <p class="section__item-number">1</p>
             <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
             <p class="section__item-description">
               Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
@@ -307,17 +329,7 @@
           </div>
 
           <div class="section__item">
-            <span class="section__item-number">2</span>
-            <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
-            <p class="section__item-description">
-              Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
-              tellus sodales amet faucibus. Id urna nibh suscipit massa a tortor
-              sed quis elit.
-            </p>
-          </div>
-
-          <div class="section__item">
-            <span class="section__item-number">3</span>
+            <p class="section__item-number">2</p>
             <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
             <p class="section__item-description">
               Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
@@ -326,7 +338,7 @@
           </div>
 
           <div class="section__item">
-            <span class="section__item-number">4</span>
+            <p class="section__item-number">3</p>
             <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
             <p class="section__item-description">
               Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
@@ -336,7 +348,46 @@
           </div>
 
           <div class="section__item">
-            <span class="section__item-number">5</span>
+            <p class="section__item-number">4</p>
+            <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
+            <p class="section__item-description">
+              Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
+              tellus sodales amet faucibus. Id urna nibh suscipit massa a tortor
+              sed quis elit.
+            </p>
+          </div>
+
+          <div class="section__item">
+            <p class="section__item-number">5</p>
+            <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
+            <p class="section__item-description">
+              Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
+              tellus sodales amet faucibus. Id urna nibh suscipit massa a tortor
+              sed quis elit.
+            </p>
+          </div>
+
+          <div class="section__item">
+            <p class="section__item-number">6</p>
+            <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
+            <p class="section__item-description">
+              Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
+              tellus sodales amet faucibus.
+            </p>
+          </div>
+
+          <div class="section__item">
+            <p class="section__item-number">7</p>
+            <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
+            <p class="section__item-description">
+              Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
+              tellus sodales amet faucibus. Id urna nibh suscipit massa a tortor
+              sed quis elit.
+            </p>
+          </div>
+
+          <div class="section__item">
+            <p class="section__item-number">8</p>
             <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
             <p class="section__item-description">
               Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
@@ -346,36 +397,7 @@
           </div>
 
           <div class="section__item">
-            <span class="section__item-number">6</span>
-            <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
-            <p class="section__item-description">
-              Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
-              tellus sodales amet faucibus.
-            </p>
-          </div>
-
-          <div class="section__item">
-            <span class="section__item-number">7</span>
-            <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
-            <p class="section__item-description">
-              Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
-              tellus sodales amet faucibus. Id urna nibh suscipit massa a tortor
-              sed quis elit.
-            </p>
-          </div>
-
-          <div class="section__item">
-            <span class="section__item-number">8</span>
-            <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
-            <p class="section__item-description">
-              Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
-              tellus sodales amet faucibus. Id urna nibh suscipit massa a tortor
-              sed quis elit. Laoreet vitae netus lectus nunc.
-            </p>
-          </div>
-
-          <div class="section__item">
-            <span class="section__item-number">9</span>
+            <p class="section__item-number">9</p>
             <p class="section__item-heading">Lorem ipsum dolor sit amet</p>
             <p class="section__item-description">
               Lorem ipsum dolor sit amet consectetur. In ac velit cras id cursus
