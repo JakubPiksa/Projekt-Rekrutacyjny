@@ -23,7 +23,6 @@
 }
 
 .header__logo svg {
-
     width: 115px;
 }
 
@@ -118,5 +117,32 @@
         right: 0;
         color: $text-color;
         opacity: 1;
+    }
+}
+
+
+@include desktop { 
+    .header__container {
+        height: 82px;
+        padding: 0px;
+        margin: 0px 255px;
+    }
+    
+    .header__nav-list{
+        margin: 0px;
+    }
+
+    .header__logo-container {
+        width: 178px;
+        height: 61px;
+    }
+
+    .header__logo svg {
+        width: 178px;
+    }
+
+    .header__nav-link {
+        font-size: 15;
+        line-height: 1.26;
     }
 }
