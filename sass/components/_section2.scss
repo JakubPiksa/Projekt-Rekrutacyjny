@@ -52,3 +52,10 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+@include desktop {
+    .section__list {
+        display: flex;
+
+    }
+}
