@@ -39,6 +39,8 @@
     border-left: 1px solid $footer-line;
 }
 
+
+
 .footer__strong {
     font-weight: 700;
 }
@@ -83,4 +85,55 @@
     height: 1px;
     background-color: $footer-line;
     margin: 0 10px;
+}
+
+
+@include desktop {
+    footer {
+        display: flex;
+        margin: 0px 13.9%;
+        justify-content: space-between;
+    }
+
+
+    .footer__section {
+        margin-left: 100px;
+    }
+
+    .footer__section-left {
+        margin-top: 40px;
+        margin-right: 100px;
+        width: 40%;
+    }
+
+        .footer__breaker {
+            font-size: 15px;
+            line-height: 1.27;
+        }
+
+
+        .footer__list li {
+            font-size: 14px;
+            letter-spacing: 0.04em;
+            line-height: 1.28;
+        }
+
+        .footer__strong {
+            font-size: 16px;
+            letter-spacing: 0.04em;
+            line-height: 1.2;
+        }
+
+        .footer__paragraph {
+            font-size: 16px;
+            letter-spacing: 0.04em;
+            line-height: 1.2;
+        }
+
+
+        .footer__company-icons svg {
+            width: 28px;
+            height: 28px;
+        }
+        
 }

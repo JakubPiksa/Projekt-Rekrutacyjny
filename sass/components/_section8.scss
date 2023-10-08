@@ -40,13 +40,16 @@
 
 @include desktop {
     .eight {
-        padding: 0px 13.9%;
+        padding: 0px 13.9% 40px 13.9%;
+    }
+
+    .section__item-container {
+        padding-bottom: 30px;
     }
 
     .section__title {
         padding-top: 60px;
     }
-
 
     .section__item-container {
         display: grid;
