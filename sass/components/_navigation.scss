@@ -7,6 +7,9 @@
 .header {
     background-color: $main-blue;
     margin: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .header__logo-container {
@@ -87,6 +90,10 @@
     .header__hamburger {
         display: block;
     }
+
+.header__nav-link {
+    color: $text-color ;
+}
 
     .header__nav-list {
         position: fixed;
