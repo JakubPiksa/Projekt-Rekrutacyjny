@@ -1,5 +1,3 @@
-/* Usuń komentarz "//" przed zmianami, aby je aktywować */
-
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +10,7 @@
 }
 
 .header__logo-container {
-    width: 115px;
+    width:115px;
     height: 40px;
     border-radius: 3px;
     background-color: $background-main;
@@ -21,9 +19,9 @@
     align-items: center;
 }
 
-.header__logo img {
-    height: 15px;
-    width: 55px;
+.header__logo svg {
+
+    width: 115px;
 }
 
 .header__nav-item {
@@ -33,6 +31,9 @@
 .header__nav-link {
     text-decoration: none;
     color: $background-main;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.04em;
 }
 
 .header__container {
@@ -51,11 +52,6 @@
     gap: 60px;
 }
 
-.header__nav-link {
-    color: $text-color;
-    transition: 0.7s ease;
-}
-
 .header__nav-link:hover {
     color: $main-blue;
 }
@@ -63,33 +59,33 @@
 .header__hamburger {
     display: none;
     cursor: pointer;
-    margin-right: 28px;
-    margin-top: 22px;
+
 }
 
 .header__hamburger-bar {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
+    width: 20px;
+    height: 2px;
+    margin: 4px ;
     background-color: $background-main;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+.header__hamburger.active .header__hamburger-bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.header__hamburger.active .header__hamburger-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.header__hamburger.active .header__hamburger-bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
 }
 
 @media (max-width: 768px) {
     .header__hamburger {
         display: block;
-    }
-
-    .header__hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .header__hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .header__hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
     }
 
     .header__nav-list {
@@ -105,7 +101,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-        padding: 80px 30px 30px;
+        padding: 30px;
         gap: 20px;
         background-color: $background-main;
         z-index: 1000;
