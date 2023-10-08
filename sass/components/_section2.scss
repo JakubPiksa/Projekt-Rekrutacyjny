@@ -56,10 +56,10 @@
 
 @include desktop {
     .two {
-        padding: 40px 225px;
+        padding: 40px 11.7%;
     }
     .section__list {
-    display: grid;
+        display: grid;
         grid-template-columns: repeat(4, 1fr);       
         grid-template-rows: repeat(2, auto);
         gap: 10px;
@@ -72,9 +72,10 @@
 
 
     .section__figure-caption {
-
-        font-size: 22px;
-
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        font-size: 18px;
     }
 
 }

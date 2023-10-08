@@ -21,10 +21,11 @@
 
 .section__days-container {
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap:10px;
+    
     margin: 0px 15px;
 }
 
@@ -34,6 +35,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .section__days-day {
@@ -51,46 +53,95 @@
 .section__days-text {
     width: 100%;
     background-color: $background-grey;
-    line-height: 1.25;
-    font-size: 12px;
-    letter-spacing: 0.02em;
+    line-height: 1.3;
+    font-size: 10px;
+    letter-spacing: 0.04em;
     font-weight: bold;
-    margin-bottom: 10px;
     text-align: center;
     padding: 15px 20px;
+    color: $text-color;
 }
 
 @include desktop {
+
+    .section__title-container {
+        margin-left: 225px;
+    }
 
     .section__days-day {
         font-size: 26px;
 
     }
 
-
     .section__image-five {
         padding-left: 0px;
-        max-width: 705px;
+        max-width: 36%;
     }
 
     .section__days-container-desktop {
         display: flex;
+        margin-top: 60px;
     }
 
     .section__desktop-container{
+        margin-right: 255px;
         margin-left: 150px;
-        width: 810px;
+    }
+
+
+    .section__days-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        gap: 40px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .section__days-item {
-        width: 810px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0px;
     }
+
+    .section__days-text{
+        height: auto;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .monday {
         display: flex;
         flex-direction: row;
+        gap: 20px;
+    }
+
+    .section__button-container {
+        text-align: left;
+    }
+
+    .section__days-under {
+        justify-content: left;
+    
+    }
+
+    .section__strong {
+        font-size: 16px;
+        line-height: 1.375;
+        letter-spacing: 0.04em;
+    }
+
+    .section__days-description{
+        margin-bottom: 40px;
+    }
+    .section__paragraph {
+        font-size: 16px;
+        line-height: 1.375;
+        letter-spacing: 0.04em;
+        
     }
 }
