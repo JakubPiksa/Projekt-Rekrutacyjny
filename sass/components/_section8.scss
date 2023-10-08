@@ -3,7 +3,6 @@
     padding: 30px 0px;
 }
 
-
 .section__item {
     background-color: $background-main;
     border-radius: 2px;
@@ -41,8 +40,13 @@
 
 @include desktop {
     .eight {
-        padding: 0px 255px;
+        padding: 0px 13.9%;
     }
+
+    .section__title {
+        padding-top: 60px;
+    }
+
 
     .section__item-container {
         display: grid;
@@ -50,8 +54,6 @@
     }
 
     .section__item {
-        width: 450px;
-        height: 330px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -62,20 +64,28 @@
         font-size: 120px;
         letter-spacing: 0.04em;
         line-height: 0.83;
-        padding-top: 30px;
-        margin: 30px;
     }
 
     .section__item-heading {
         margin-top: 30px;
         padding: 0px 30px;
-        font-size: 26px;
+        font-size: 24px;
         line-height: 0.92;
     }
     .section__item-description {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.375;
         letter-spacing: 0.04em;
         padding: 10px 30px 30px 30px;
+    }
+
+
+    .section__paragraph-eight {
+        font-size: 16px;
+        letter-spacing: 0.04em;
+    }
+
+    .section_subtitle-container {
+        margin-bottom: 20px;
     }
 }
