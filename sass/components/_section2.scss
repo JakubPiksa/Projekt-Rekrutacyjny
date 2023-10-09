@@ -96,18 +96,18 @@
     filter: brightness(100%);
     }
 
-    .hoover-container {
+    .section__hoover-container {
         position: relative;
         cursor: pointer;
         &:hover {
             .section__figure-image {
                 filter: brightness(50%);
             }
-            .hoover {
+            .section__hoover {
                 opacity: 1;
             }
         }
-    .hoover {
+    .section__hoover {
         position: absolute;
         z-index: 1;
         top: 0;
@@ -117,9 +117,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 15px;
         opacity: 0;
         transition: all 0.2s ease-in-out;
-        
+        & p {
+            color: $background-main;
+        }
     }
     }
 

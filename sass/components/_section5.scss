@@ -96,8 +96,12 @@
 
 
 @include desktop {
-
-
+.five {
+    margin: 80px 0px;
+}
+.title-five {
+    padding-left: 255px;
+}
 
     .section__days-day {
         font-size: 26px;
@@ -139,13 +143,16 @@
     }
 
     .section__days-text{
-        height: auto;
-        font-size: 18px;
+        padding: 30px;
+        height: 103px;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: 0.04em;
         justify-content: center;
         align-items: center;
     }
 
-    .monday {
+    .section__monday {
         display: flex;
         flex-direction: row;
         gap: 20px;
@@ -156,7 +163,8 @@
     }
 
     .section__days-under {
-        justify-content: left;
+        align-items: flex-start;
+        justify-content: flex-start;
     
     }
 
@@ -168,6 +176,7 @@
 
     .section__days-description{
         margin-bottom: 40px;
+        align-items: flex-start
     }
     .section__paragraph {
         font-size: 16px;

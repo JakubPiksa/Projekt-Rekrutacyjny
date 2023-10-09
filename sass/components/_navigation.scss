@@ -144,5 +144,10 @@
     .header__nav-link {
         font-size: 15;
         line-height: 1.26;
+        transition: all 0.1s ease-in-out;
+        &:hover {
+            color: $background-main;
+            border-bottom: 3px solid $background-main;
+        }
     }
 }

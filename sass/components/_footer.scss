@@ -93,45 +93,66 @@
         display: flex;
         margin: 0px 13.9%;
         justify-content: space-between;
+        padding-top: 40px;
     }
 
+    .footer__logo {
+        margin: 0px;
+        width: 454px;
+        height: 103px;
+    }
     .footer__section {
         margin-left: 100px;
     }
 
     .footer__section-left {
         margin-top: 40px;
-        margin-right: 100px;
         width: 40%;
     }
 
-        .footer__breaker {
-            font-size: 15px;
-            line-height: 1.27;
-        }
+    .footer__breaker {
+        font-size: 15px;
+        line-height: 1.27;
+    }
 
-        .footer__list li {
-            font-size: 14px;
-            letter-spacing: 0.04em;
-            line-height: 1.28;
-        }
+    .footer__list li {
+        font-size: 14px;
+        letter-spacing: 0.04em;
+        line-height: 1.28;
+    }
 
-        .footer__strong {
-            font-size: 16px;
-            letter-spacing: 0.04em;
-            line-height: 1.2;
-        }
+    .footer__strong {
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        line-height: 1.375;
+    }
 
-        .footer__paragraph {
-            font-size: 16px;
-            letter-spacing: 0.04em;
-            line-height: 1.2;
-        }
+    .footer__paragraph {
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        line-height: 1.375;
+    }
+    
+    .footer__list {
+        padding-bottom: 20px;
+    }
 
+    .footer__line-container {
+        margin-top: 0px;
+    }
 
-        .footer__company-icons svg {
+    .footer__company-icons {
+        justify-content: center;
+        gap: 18px;
+        &svg {
             width: 28px;
             height: 28px;
         }
-        
+    }
+     
+    
+    .footer__company-details {
+        margin-top: 30px;
+    }
+
 }
