@@ -4,12 +4,9 @@
 }
 
 .section__image-five {
-    margin:  30px -15px;
+    margin: 30px -15px;
     width: 109%;
-
 }
-
-
 
 .section__days-description {
     display: flex;
@@ -31,7 +28,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 30px 0px;
+    margin: 30px 0;
 }
 
 .section__days-item {
@@ -41,7 +38,6 @@
     flex-direction: column;
     width: 100%;
     gap: 10px;
-    
 }
 
 .section__days-day {
@@ -57,7 +53,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .section__days-text {
@@ -83,7 +78,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    gap: 10px
+    gap: 10px;
 }
 
 .section__strong {
@@ -93,23 +88,21 @@
     letter-spacing: 0.04em;
 }
 
-
-
 @include desktop {
-.five {
-    margin: 80px 0px;
-}
-.title-five {
-    padding-left: 255px;
-}
+    .five {
+        margin: 80px 0;
+    }
+
+    .title-five {
+        padding-left: 255px;
+    }
 
     .section__days-day {
         font-size: 26px;
-
     }
 
     .section__image-five {
-        padding-left: 0px;
+        padding-left: 0;
         max-width: 36%;
     }
 
@@ -118,11 +111,10 @@
         margin-top: 60px;
     }
 
-    .section__desktop-container{
+    .section__desktop-container {
         margin-right: 13.9%;
         margin-left: 150px;
     }
-
 
     .section__days-container {
         display: flex;
@@ -131,18 +123,18 @@
         justify-content: flex-start;
         gap: 40px;
         margin-bottom: 40px;
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .section__days-item {
         width: 100%;
         text-align: center;
         justify-content: center;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .section__days-text{
+    .section__days-text {
         padding: 30px;
         height: 103px;
         font-size: 14px;
@@ -165,7 +157,6 @@
     .section__days-under {
         align-items: flex-start;
         justify-content: flex-start;
-    
     }
 
     .section__strong {
@@ -174,14 +165,14 @@
         letter-spacing: 0.04em;
     }
 
-    .section__days-description{
+    .section__days-description {
         margin-bottom: 40px;
-        align-items: flex-start
+        align-items: flex-start;
     }
+
     .section__paragraph {
         font-size: 16px;
         line-height: 1.375;
         letter-spacing: 0.04em;
-        
     }
 }
