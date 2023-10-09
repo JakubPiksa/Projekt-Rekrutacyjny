@@ -24,11 +24,16 @@
 
 .footer__company-icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 25%;
-    margin-right: 30px;
+    gap: 18px;
+    margin-right: 10px;
+    & svg {
+        width: 23px;
+        height: 23px;
+    }
 }
+
 
 
 .footer__company-info {
